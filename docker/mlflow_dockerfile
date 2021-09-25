@@ -1,0 +1,5 @@
+FROM nvidia_nomkl
+
+RUN pip install mlflow
+
+CMD bash
